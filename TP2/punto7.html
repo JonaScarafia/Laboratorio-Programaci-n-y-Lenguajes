@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto 7 TP 2</title>
+</head>
+
+<body>
+    <header>
+        <h1>Trabajo Pr&aacute;ctico N°2 </h1>
+        <h2>Punto 7 </h2>
+    </header>
+    <p>
+        P&aacute;gina contacto.html: crear un formulario como se muestra en la siguiente imagen, cuyo destino sea la
+        direccion nuevousuario@empresa.com.ar y el metodo de ennvio sea GET
+    </p>
+    <!-- 
+
+    La diferencia entre el metodo POST y GET es que con el metodo get, los datos se encian junto a la utilizar
+en cambio el Metodo POST los datos no son visibles
+
+-->
+
+    <form id="idFormu" name "formu" method="get" action="nuevousuario@empresa.com.ar">
+        
+        <fieldset style= "width: fit-content;">
+            <table style="margin: auto;">
+    
+                <h3 style="text-align: center;">INFORMACI&Oacute;N</h3>
+                <h4 style="text-align: center;">Si quieres recibir la mejor informaci&oacute;n, registrate: </h4>
+                <tr>
+                    <td style="text-align: right;"> Nombre
+                    <td><input style="border-right:beige;" name="nombre" type="text" id="idNombre" autofocus="autofocus"
+                            size="10"></td>
+                    </td>
+                </tr>
+    
+    
+                <tr>
+                    <td style="text-align: right;"> Primer Apellido
+                    <td><input style="border-right:beige;" name="primerApellido" type="text" id="idPrimerApellido"
+                            size="15"></td>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td style="text-align: right;"> Segundo Apellido
+                    <td> <input style="border-right:beige;" name="segundoApellido" type="text" id="idSegundoApellido"
+                            size="15"></td>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td style="text-align: right;"> Domicilio
+                    <td>
+                        <input style="border-right:beige;" name="domicilio" type="text" id="idDomicilio" size="20">
+    
+                    </td>
+                    </td>
+                </tr>
+    
+    
+                <tr>
+                    <td style="text-align: right;">Codigo Postal
+                    <td>
+                        <input style="border-right:beige;" name="codigoPostal" type="text" id="idCodigoPostal" size="10">
+                    </td>
+                    </td>
+                </tr>
+    
+    
+                <tr>
+                    <td style="text-align: right;">Telefono
+                    <td><input style="border-right:beige;" type="text" name="telefono" id="idTelefono" size="15"></td>
+                    </td>
+                </tr>
+    
+    
+                <tr>
+                    <td style="text-align: right;"> e-mail
+                    <td><input style="border-right:beige;" type="email" name="email" id="idEmail" size="20"></td>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td style="text-align: right;"> Confirmar email
+                    <td><input style="border-right:beige;" type="email" name="confirmarEmail" id="idEmal" size="20"></td>
+                    </td>
+                </tr>
+    
+                <br><br>
+                <tr>
+                    <td>
+                    <td  style="text-align: left;"><input name="Borrar" type="reset" id="idBorrar" value="Borrar">
+                        <input name="Enviar" type="submit" id="idEnviar" value="Enviar">
+                    </td>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>

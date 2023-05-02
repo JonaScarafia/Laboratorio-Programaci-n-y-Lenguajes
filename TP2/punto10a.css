@@ -1,0 +1,27 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+span{
+    color: red;
+}
+
+p{
+font-family: cursive;
+}
+
+h1{
+    color: black;
+}
+
+footer{
+    color: black;
+    font-size: 10px;
+    position: fixed;
+    left: 30%;
+    bottom: 0px;
+    height: 30%;
+    width: 100%;
+    
+}

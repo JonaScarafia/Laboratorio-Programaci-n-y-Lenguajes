@@ -1,0 +1,50 @@
+.parrafo1{
+    border-style: solid;
+    border-color: red;
+}
+
+.parrafo2{
+    border-style:dotted;
+    border-color: green;
+}
+
+.parrafo3{
+    border-style:dashed;
+    border-color: violet;
+}
+
+.parrafo4{
+    border-style:double;
+    border-color:blueviolet;
+}
+
+.parrafo5{
+    border-style:groove;
+    border-color:blue;
+}
+
+.parrafo6{
+    border-style: ridge;
+    border-color:tomato;
+}
+
+.parrafo7{
+    border-style:inset;
+    border-color:brown;
+}
+
+.parrafo8{
+    border-style: outset;
+    border-color: cornflowerblue;
+}
+
+footer{
+    color: black;
+    font-size: 10px;
+    position: fixed;
+    left: 30%;
+    bottom: 0px;
+    height: 30%;
+    width: 100%;
+    font-family: cursive;
+}

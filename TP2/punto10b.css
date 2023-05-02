@@ -1,0 +1,21 @@
+#primero{
+    background-color: blue;
+}
+#segundo{
+    background-color: red;
+}
+
+.tercero{
+    background-color: green;
+}
+
+footer{
+    color: black;
+    font-size: 10px;
+    position: fixed;
+    left: 30%;
+    bottom: 0px;
+    height: 30%;
+    width: 100%;
+    
+}
